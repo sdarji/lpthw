@@ -2,8 +2,8 @@
 
 from sys import argv
 
-script, user_name = argv
-prompt = '>'
+script, user_name, user_age = argv
+prompt = 'your answer:'
 
 print "Hi %s, I'm the %s script." % (user_name, script)
 print "I'd like to ask you a few questions."
@@ -18,9 +18,10 @@ computer = raw_input(prompt)
 
 print """
 Alright, so you said %r about liking me.
-You live in %r. Not sure where that is.
+You are %r years old and live in %r. 
+Not sure where that is.
 And you have a %r computer. Nice.
-""" % (likes, lives, computer)
+""" % (likes, user_age, lives, computer)
 
 
 
