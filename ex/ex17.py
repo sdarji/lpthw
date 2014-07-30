@@ -26,7 +26,5 @@ print "Alright, all done."
 out_file.close()
 in_file.close()
 
-# to do this in one line -->
+# to do this is the program in just one line (not pythonic)-->
 # from sys import argv; script, from_file, to_file = argv; open(to_file, 'w').write(open(from_file).read())
-
-
