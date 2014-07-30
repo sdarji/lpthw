@@ -43,3 +43,5 @@ current_file.seek(new_line - 1)
 print "Let's print the next two lines from your character #."
 print_a_line(1, current_file)
 print_a_line(2, current_file)
+
+current_file.close()
