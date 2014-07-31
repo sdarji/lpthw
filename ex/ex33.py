@@ -14,6 +14,9 @@ def number_loop(num, increment):
     for num in numbers:
         print num,
 
+def number_loop_2(num, increment):
+    numbers = [i for i in range(0, num, increment)]
+    print '\n\nThis is the Pythonic way:\n%r' % numbers
+
 number_loop(21, 3)
-number_loop(8, 2)
-number_loop(4, 1)
+number_loop_2(24, 2)
